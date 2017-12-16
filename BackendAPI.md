@@ -9,6 +9,7 @@
 
     name : String (Teacher's Name)
     school : String (Teacher's School)
+    phone : Number (Teacher's PhoneNumber)
     
 > Return
 
@@ -23,7 +24,7 @@
 
     lat : Number (Teacher's Latitude)
     lon : Number (Teacher's Longitude)
-    teacher_id : Number (Teacher's Id)
+    teacher_phone : Number (Teacher's PhoneNumber)
     
 > Return
 
@@ -47,7 +48,7 @@
         "created": (teacher_live_location's create time ),
         "lat": (Teacher's Latitude),
         "lon": (Teacher's Longitude),
-        "teacher_id": (Teacher's id)
+        "teacher_phone": (Teacher's PhoneNumver)
     }
 
 
@@ -55,7 +56,7 @@
 
 > Requiring
 
-    teacher_id : Number (Teacher's Id)
+    teacher_phone : Number (Teacher's PhoneNumber)
     
 > Return
 
@@ -66,7 +67,7 @@
         "created": (teacher_live_location's create time ),
         "lat": (Teacher's Latitude),
         "lon": (Teacher's Longitude),
-        "teacher_id": (Teacher's id)
+        "teacher_phone": (Teacher's PhoneNumber)
     }
 
 
