@@ -51,4 +51,22 @@
     }
 
 
+* /api/selectTeacher : POST
+
+> Requiring
+
+    teacher_id : Number (Teacher's Id)
+    
+> Return
+
+    {
+        "id": (teacher_live_location's id),
+        "name": (Teacher's name),
+        "school": (Teacher's school),
+        "created": (teacher_live_location's create time ),
+        "lat": (Teacher's Latitude),
+        "lon": (Teacher's Longitude),
+        "teacher_id": (Teacher's id)
+    }
+
 
