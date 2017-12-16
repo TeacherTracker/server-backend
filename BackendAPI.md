@@ -48,7 +48,7 @@
         "created": (teacher_live_location's create time ),
         "lat": (Teacher's Latitude),
         "lon": (Teacher's Longitude),
-        "teacher_phone": (Teacher's PhoneNumver)
+        "phone": (Teacher's PhoneNumver)
     }
 
 
@@ -67,7 +67,7 @@
         "created": (teacher_live_location's create time ),
         "lat": (Teacher's Latitude),
         "lon": (Teacher's Longitude),
-        "teacher_phone": (Teacher's PhoneNumber)
+        "phone": (Teacher's PhoneNumber)
     }
 
 
